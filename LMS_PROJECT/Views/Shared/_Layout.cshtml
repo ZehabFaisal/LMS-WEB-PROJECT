@@ -27,23 +27,34 @@
     <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
     <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
     <script src="~/Scripts/modernizr-2.8.3.js"></script>
-
     <title> LMS PROJECT </title>
+
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo"> <i class="fa-solid fa-book"> </i> Learning Hub </a>
 
         <nav class="navbar">
-            <a href="./index.html" class="nav-links"> Home </a>
-            <a href="./aboutus.html" class="nav-links"> About Us </a>
-            <a href="./courses.html" class="nav-links"> Courses </a>
-            <a href="./teacher.html" class="nav-links"> Teacher </a>
-            <a href="./review.html" class="nav-links"> Review </a>
-            <a href="./blog.html" class="nav-links"> Blog </a>
-            <a href="./contactus.html" class="nav-links"> Contact Us </a>
+            <a href="~/Home/Index" class="nav-links"> Home </a>
+            <a href="~/Home/About" class="nav-links"> About Us </a>
+            <a href="~/Home/Courses" class="nav-links"> Courses </a>
+            <a href="~/Home/Teacher" class="nav-links"> Teacher </a>
+            <a href="~/Home/Reviews" class="nav-links"> Review </a>
+            <a href="~/Home/Blog" class="nav-links"> Blog </a>
+            <a href="~/Home/Contact" class="nav-links"> Contact Us </a>
         </nav>
 
+        <div class="auth-buttons">
+            <a href="~/Home/Login" class="btn">
+                <span class="text text-1"> Log In </span>
+                <span class="text text-2" aria-hidden="true"> Log In </span>
+            </a>
+
+            <a href="~/Home/SignUp" class="btn">
+                <span class="text text-1"> Sign Up </span>
+                <span class="text text-2" aria-hidden="true"> Sign Up </span>
+            </a>
+        </div>
     </header>
 
     <div class="container body-content">
